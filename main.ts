@@ -43,7 +43,7 @@ if (PinAnswer.Pin === myPin) {
         name: "amount",
         message: "fastCash Amount",
         type: "list",
-        choices: ["5000", "10000", "20000", "25000"],
+        choices: ["500", "1000", "1500", "2000"],
       },
     ]);
     if (myBalance > fastCashAmount.amount) {
